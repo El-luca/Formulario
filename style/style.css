@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+form {
+    width: 512px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+h1 {
+    font-weight: bold;
+    color: #3F3D56;
+    font-size: 37px;
+}
+
+label {
+    font-size: 14px;
+    color: #323730;
+    text-transform: capitalize;
+    margin-bottom: 6px;
+}
+
+.text {
+    border: 1px solid #ABB3A8;
+    width: 100%;
+    height: 47px;
+    box-sizing: border-box;
+    padding: 16px;
+}
+
+.box+.box {
+    margin-bottom: 26px;
+}
