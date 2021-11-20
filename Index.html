@@ -17,20 +17,30 @@
 
 <body>
     <form>
-        <h1>Faça seu loguin</h1>
-        <label for="email">e-mail</label>
-        <input type='text' id='email' class="text" placeholder='Digite seu e-mail' />
+        <h1>Faça seu login</h1>
 
-        <label for="password">senha</label>
-        <input type="password" id="password" class="text" requiered placeholder="Crie uma senha" />
+        <div class="box first">
+            <label for="email" class="label-text">e-mail</label>
+            <input type='text' id='email' class="text" placeholder='Digite seu e-mail' />
 
-        <input type="checkbox" id="connect" checked>
-        <label for="connect">Mantenha-me conectado</label>
+        </div>
+        <div class="box second">
+            <label for="password" class="label-text">senha</label>
+            <input type="password" id="password" class="text" requiered placeholder="Crie uma senha" />
 
-        <a href="#">Esqueci minha senha</a>
-        <span>
+        </div>
+        <div class="connect">
+            <div class="conecte-me">
+
+                <input type="checkbox" id="connect" class="connect-check">
+                <label for="connect" class="connect-label">Mantenha-me conectado</label>
+            </div>
+            <a href="#" class="forgot">Esqueci minha senha</a>
+        </div>
+        <button type="submit" class="send">Entrar</button>
+        <span class="singin">
               Ainda não tem uma conta?
-             <a href="#"> Cadastre-se</a>
+             <a href="#" class="singin-link"> Cadastre-se</a>
         </span>
     </form>
 </body>
