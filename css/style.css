@@ -6,6 +6,7 @@
     color: #3F3D56;
 }
 
+
 .container {
     display: flex;
     justify-content: center;
@@ -108,4 +109,98 @@ h1 {
 .singin-link:hover {
     color: rgba(29, 186, 226, 0.9);
     text-decoration: underline;
+}
+
+
+/*estilização de cadastro*/
+
+.form-2{
+    justify-content: center;
+    width: 396px;
+    margin: 0 auto ;
+}
+.top{
+    padding-bottom: 22px;
+    align-items: center;
+}
+.box-first{
+    
+    width: 396;
+    margin-bottom: 35px;
+}
+.box-2{
+   
+    display: flex;
+    
+    font-size: 14px;
+    
+    
+}
+
+.label-text{
+color:  #323730;
+border: 1px solid #ABB3A8;
+box-sizing: border-box;
+text-transform: capitalize;
+margin-bottom: 6px;
+}
+
+.text:hover{
+    border: 1px solid #ABB3A8;
+box-sizing: border-box;
+
+}
+.comp{
+    
+   display: flex;
+    display: inline-block;
+    flex-direction: column;
+    margin-bottom: 9px;
+}
+#date{
+    width: 170px;
+    height: 47px;
+    margin-bottom: 33px;
+}  
+.option{
+    width: 208px;
+    height: 47px;
+}
+.genero-2{
+    margin-bottom: 8px;
+}
+.box-sex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.femi{
+    margin-bottom: 23px;
+}
+
+.e-mail-2{
+    margin-bottom: 33px;
+}
+.senha-2{
+    margin-bottom: 22px;
+}
+.c-senha-2{
+    margin-bottom: 28px;
+}
+.term{
+    margin-bottom: 28px;
+}
+.send-2{
+    height: 47px;
+    background-color: #3F3D56;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    border: none;
+    margin-bottom: 28px;
+}
+.send-2:hover {
+    border-bottom: 1px solid #3F3D56;
+    transition-duration: 300ms;
+    cursor: pointer;
 }

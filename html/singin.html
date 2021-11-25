@@ -4,57 +4,70 @@
 
 <body>
     <section class="container">
-        <form>
-            <h1>Faça seu cadastro</h1>
+        <form class="form-2">
+            <h1 class="top">Faça seu cadastro</h1>
 
-            <div class="box first">
+            <div class="box-first">
                 <label for="name" class="label-text">Nome completo</label>
                 <input type='text' id='name' class="text" placeholder='Digite seu nome completo' />
 
             </div>
-            <label for="date">Data de Nascimento</label>
+            <div class="box-2">
+           <div>
+            <label for="date" class="comp">Data de Nascimento</label>
             <input type="date" name="date" id="date">
 
-            <label for="country">País</label>
-            <select>
+           </div>
+          <div>
+            <label for="country" class="comp">País</label>
+            <select class="option">
                 <option value="brasil">Brasil</option>
                 <option value="alemanha">Alemanha</option>
                 <option value="china">China</option>
             </select>
-            <div class="box">
-                <label for="genero">Gênero</label>
-                <input type="radio" name="radio" id="fem">
+          </div>
+           
+            </div>
+            <label for="genero" class="genero-2">Gênero</label>
+            <div class="box-sex">
+                <div class="femi">
+                    <input type="radio" name="radio" id="fem">
                 <label for="fem">feminino</label>
-                <input type="radio" name="radio" id="mas">
+                </div>
+                <div>
+                    <input type="radio" name="radio" id="mas">
                 <label for="mas">Masculino</label>
+                </div>
+               <div>
                 <input type="radio" name="radio" id="not">
                 <label for="not">Não Declarar</label>
+               </div>
             </div>
 
-            <div>
+            <div class="e-mail-2">
                 <label for="email" class="label-text">e-mail</label>
                 <input type='text' id='email' class="text" placeholder='Digite seu e-mail' />
 
             </div>
-            <div>
+            <div class="senha-2">
                 <label for="password" class="label-text">senha</label>
                 <input type="password" id="password" class="text" requiered placeholder="Crie uma senha" />
 
             </div>
-            <div>
+            <div class="c-senha-2">
                 <label for="password" class="label-text">Comfirme sua senha</label>
                 <input type="password" id="password" class="text" requiered placeholder="Confirme senha" />
 
             </div>
 
-            <div>
+            <div class="term">
                 <input type="checkbox" name="accept" id="accept">
-                <span>Aceito os <a href="#">Termos e condições</a> e concordo com as <a href="#">Poíticas de privacidade</a> do Hall to code.</span>
+                <span class="priv">Aceito os <a href="#" class="singin-link">Termos e condições</a> e concordo com as <a href="#" class="singin-link">Poíticas de privacidade</a> do Hall to code.</span>
             </div>
-            <button type="submit">Cadastrar</button>
+            <button type="submit" class="send">Cadastrar</button>
             <span class="singin">
     Já tem uma conta no Hall to code?
-   <a href="#" class="singin-link" class="send">Entre agora</a>
+   <a href="#" class="singin-link" class="send-2">Entre agora</a>
 </span>
         </form>
     </section>
