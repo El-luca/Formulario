@@ -25,6 +25,8 @@ h1 {
     font-weight: bold;
     font-size: 37px;
     margin-bottom: 31px;
+    text-align: center;
+
 }
 
 .label-text {
@@ -32,6 +34,7 @@ h1 {
     text-transform: capitalize;
     margin-bottom: 6px;
     display: inline-block;
+    border: none;
 }
 
 .text {

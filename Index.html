@@ -17,17 +17,19 @@
 
 <body>
     <section class="container">
-        <form>
+        <form method="post" action="">
             <h1>Faça seu login</h1>
 
             <div class="box first">
                 <label for="email" class="label-text">e-mail</label>
-                <input type='text' id='email' class="text" placeholder='Digite seu e-mail' />
+                <input type='text' id='email' class="text" placeholder='Digite seu e-mail' type=text title="Campo obrigatório"
+                required name=nome/> 
 
             </div>
             <div class="box second">
                 <label for="password" class="label-text">senha</label>
-                <input type="password" id="password" class="text" requiered placeholder="Crie uma senha" />
+                <input type="password" id="password" class="text" requiered placeholder="Crie uma senha" type=text title="Campo obrigatório"
+                required name=nome />
 
             </div>
             <div class="connect">
@@ -39,7 +41,7 @@
                 <a href="/pages.html/password.html" class="forgot">Esqueci minha senha</a>
             </div>
             <button type="submit" class="send">Entrar</button>
-            <span class="singin">
+            <span class="singin"  >
               Ainda não tem uma conta?
              <a href="/html/singin.html" class="singin-link"> Cadastre-se</a>
         </span>
