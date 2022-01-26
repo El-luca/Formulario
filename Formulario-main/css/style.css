@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     color: #3F3D56;
+    background-color: #fff8dc;
 }
 
 .container {
@@ -87,6 +88,7 @@ h1 {
     color: #ffffff;
     border: none;
     margin-bottom: 32px;
+    transition-duration: 300ms;
 }
 
 .send:hover {
@@ -94,8 +96,9 @@ h1 {
     transition-duration: 300ms;
     cursor: pointer;
     text-transform: uppercase;
-    background-color: #ffffff;
+    background-color: transparent;
     color: #3F3D56 ;
+    border: none;
 }
 
 .singin {
@@ -232,12 +235,6 @@ h1 {
     justify-content: center;
     width: 396px;
     margin: 0 auto ;
-}
-
-.password{
-    text-align: center;
-    margin-bottom: 31px;
-    color: #3F3D56;
 }
 
 .calm{
